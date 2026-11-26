@@ -15,7 +15,7 @@
 
 # Use the official lightweight Node.js 20 image.
 # https://hub.docker.com/_/node
-FROM node:20-slim
+FROM node:20-slim@sha256:2cf067cfed83d5ea958367df9f966191a942351a2df77d6f0193e162b5febfc0
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
