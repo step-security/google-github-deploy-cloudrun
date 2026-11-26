@@ -1,0 +1,36 @@
+[[IgnoredVulns]]
+id = "GHSA-27r3-jxmh-p828"
+reason = "body-parser is a transitive dependency of express. The sample app only defines app.get('/') and never mounts express.json()/express.urlencoded(), so no request bodies are parsed."
+
+[[IgnoredVulns]]
+id = "GHSA-v422-hmwv-36x6"
+reason = "body-parser is a transitive dependency of express. The sample app only defines app.get('/') and never mounts express.json()/express.urlencoded(), so no request bodies are parsed."
+
+[[IgnoredVulns]]
+id = "GHSA-37ch-88jc-xwx2"
+reason = "path-to-regexp is a transitive dependency of express. The only route is '/', which has no route parameters, so the vulnerable pattern cannot be constructed."
+
+[[IgnoredVulns]]
+id = "GHSA-jqcg-44mw-7w3h"
+reason = "proxy-addr is only consulted when the 'trust proxy' setting is configured. The sample app does not set it and does not use req.ip."
+
+[[IgnoredVulns]]
+id = "GHSA-6pq8-jhm2-2vcw"
+reason = "qs.stringify is never called by the sample app."
+
+[[IgnoredVulns]]
+id = "GHSA-q8mj-m7cp-5q26"
+reason = "qs.stringify is never called by the sample app."
+
+[[IgnoredVulns]]
+id = "GHSA-4mjr-xmp4-gh2g"
+reason = "example-app is a test fixture deployed only by the integration tests. It is not part of the action and is not shipped in dist."
+
+[[IgnoredVulns]]
+id = "GHSA-6rw7-vpxm-498p"
+reason = "example-app is a test fixture deployed only by the integration tests. It is not part of the action and is not shipped in dist."
+
+[[IgnoredVulns]]
+id = "GHSA-w7fw-mjwx-w883"
+reason = "example-app is a test fixture deployed only by the integration tests. It is not part of the action and is not shipped in dist."
+

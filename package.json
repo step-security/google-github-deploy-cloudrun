@@ -34,9 +34,9 @@
   },
   "homepage": "https://github.com/step-security/google-github-deploy-cloudrun#readme",
   "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/exec": "^1.1.1",
-    "@actions/tool-cache": "^2.0.2",
+    "@actions/core": "^2.0.0",
+    "@actions/exec": "^2.0.0",
+    "@actions/tool-cache": "^3.0.0",
     "@google-github-actions/actions-utils": "^1.0.1",
     "@google-github-actions/setup-cloud-sdk": "^2.0.0",
     "axios": "^1.21.1",

@@ -1,0 +1,76 @@
+[[IgnoredVulns]]
+id = "GHSA-gxm5-99cw-xjw9"
+reason = "@fastify/busboy 2.1.1 is only pulled in by undici 5.29.0 (via @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3) for multipart/form-data parsing in fetch. The action never parses multipart bodies."
+
+[[IgnoredVulns]]
+id = "GHSA-x8mw-p69m-v3mx"
+reason = "@fastify/busboy 2.1.1 is only pulled in by undici 5.29.0 (via @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3) for multipart/form-data parsing in fetch. The action never parses multipart bodies."
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+reason = "minimatch 9.0.9 is a dev-only dependency (@typescript-eslint/typescript-estree). It is not bundled into dist and never runs in the action."
+
+[[IgnoredVulns]]
+id = "GHSA-2m5v-pch6-74hx"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Passing custom tls options to an undici Agent is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-2mjp-6q6p-2qxm"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. HTTP request/response smuggling needs a malicious or MITM'd server, and the action only talks to Google endpoints over TLS."
+
+[[IgnoredVulns]]
+id = "GHSA-35p6-xmwp-9g52"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Response queue poisoning via keep-alive reuse needs a malicious or MITM'd server, and the action only talks to Google endpoints over TLS."
+
+[[IgnoredVulns]]
+id = "GHSA-4992-7rv2-5pvq"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The upgrade option is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-8xcm-r25x-g524"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The retry interceptor is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-9fm3-97px-rjf6"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The WebSocket client is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-g8m3-5g58-fq7m"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Set-Cookie handling is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-g9mf-h72j-4rw9"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The Fetch API (Content-Encoding decompression) is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-m8rv-5g2x-5cg5"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Blob bodies is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-p88m-4jfj-68fv"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Set-Cookie handling is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-qrxm-fqhp-jwvm"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. TLS 1.2 certificate-changing renegotiation DoS needs a malicious or MITM'd server, and the action only talks to Google endpoints over TLS."
+
+[[IgnoredVulns]]
+id = "GHSA-r53p-7pc4-xj5r"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The retry interceptor is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-v3r7-h72x-cjcm"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. Cookie handling is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-v9p9-hfj2-hcw8"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The WebSocket client is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-vrm6-8vpv-qv8q"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The WebSocket client is not used by the action."
+
+[[IgnoredVulns]]
+id = "GHSA-vxpw-j846-p89q"
+reason = "undici 5.29.0 is pulled in by @google-github-actions/setup-cloud-sdk > @actions/http-client 2.2.3, which only uses undici's ProxyAgent when an HTTP proxy is configured. The WebSocket client is not used by the action."
+
